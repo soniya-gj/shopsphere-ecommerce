@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: shopsphere-backend
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  app:
+    name: ShopSphere
+    description: Full Stack E-Commerce Platform
+    version: 0.0.1

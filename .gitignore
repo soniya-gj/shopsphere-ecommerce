@@ -1,0 +1,39 @@
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+.mvn/timing.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+.angular/
+
+# Build
+build/
